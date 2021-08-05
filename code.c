@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(1)
+int main()
 {
 int i=0;
   printf("jaydip pansuriya\n");
