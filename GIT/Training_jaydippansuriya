@@ -1,5 +1,18 @@
+General Instructions : Write the answers in a Notepad or doc file and save it in Training_yourname folder and inform your Mentor.
+This set of Questionnaire focuses on “CLI and Git Workflow”
 1. Which of the following adds all new files to local repository ?
-Ans -> git add --all
+
+a) git add .
+
+b) git add -u
+
+c) git add -A
+
+d) None of the Mentioned
+
+Ans -> git add -A
+reason :  git add . updated tracked new file and modified in present working directory
+          git add -u updated modified file,it will not add a new file in repo
 
 2. Point out the correct statement :
 Ans -> You don’t need GitHub to use Git.
