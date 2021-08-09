@@ -1,4 +1,0 @@
-jaydip
-patel
-pansuriya
-volansys
