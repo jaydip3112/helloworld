@@ -10,48 +10,143 @@ c) git add -A
 
 d) None of the Mentioned
 
-Ans -> git add -A
+Ans -> option (c)
 reason :  git add . updated tracked new file and modified in present working directory
           git add -u updated modified file,it will not add a new file in repo
 
 2. Point out the correct statement :
-Ans -> You don’t need GitHub to use Git.
-Ans -> CLI can help you to organize files and folders
+
+a) You don’t need GitHub to use Git
+
+b) CLI can help you to organize files and folders
+
+c) Navigation of directory is possible using CLI
+
+d) None of the Mentioned
+
+Ans -> option (a) & (b)
 
 	Exp. :  Git is a version control tool, it is tracking to our changes.
 		Github is a cloud server.
 
 3. Which of the following command updates tracking for files that are modified ?
-Ans ->  
 
+a) git add .
+
+b) git add -u
+
+c) git add -A
+
+d) None of the Mentioned
+
+Ans -> option (a) & (b)
+	reason : git add . will update modefied file and add new file in repo, in present working directory
+		git add -A will update modefied file and add new file in repo in local repo.
 4. Which of the following command is used to give message description ?
-Ans ->  git command -m
+
+a) git command -m
+
+b) git command -d
+
+c) git command -message
+
+d) None of the Mentioned
+
+Explanation:This only updates your local repository
+
+Ans -> option (a)
 	Exp. : git commit -m "message"
+	reason : command -d use of delete a branch
 
 5. Point out the wrong statement:
-Ans -> You need GitHub to use Git
+
+a) You need GitHub to use Git
+
+b) GitHub allows you to share repositories with others
+
+c) GitHub allows you to access others repositories
+
+d) All of the Mentioned
+
+Explanation:GitHub can store remote copy of your repository.
+
+Ans -> option (a)
+
+	reason : git is a version control tool and dithub is a server. so with a git we can use other swrver also like bitbucket.
 
 6. Which of the following command allows you to update the repository ?
+
+a) push
+
+b) pop
+
+c) update
+
+d) None of the Mentioned
+
+Explanation:The git branch command is your general-purpose branch administration tool.
+
 Ans ->  push
+	reason : git stash use for saving the changes. and git stash pop is remove the changes from stash in working directory.
 
 7. Which of the following is correct way of creating GitHub repository in to well labelled commits ?
-Ans -> Fork another user’s repository
-	Exp. : Fork is given at right side upper corner in github.
+
+a) Fork another user’s repository
+
+b) Pop another user’s repository
+
+c) Zip another user’s repository
+
+d) None of the Mentioned
+
+Explanation:A fork is a copy of a repository.
+
+Ans -> option (a)
+	reason : Fork is given at right side upper corner in github.
 		it is a copy of repository. when we have to edit some contents without 
 		impecting our parent repository that time we can use it.
 
 8. Which of the following command is used to squash the commits ?
-Ans -> rebase
-	Exp. : squash the commit in git means combine a N number of commits into 1 commit.
+
+a) rebase
+
+b) squash
+
+c) boot
+
+d) All of the Mentioned
+
+Explanation:In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase.
+
+Ans -> option (a)
+
+	reason : squash the commit in git means combine a N number of commits into 1 commit.
 		like if we have to squash last 3 commits the command like squash rebase -i HEAD~3;
 		rebase -i is iterative tool that helps us to squash commits.
 
 9. Which of the following statement would create branch named as ‘sanfoundry’ ?
-Ans -> git checkout -b sanfoundry
-	Exp. : if we can create a new branch ('sanfoundry') from GIT branch, it will take base to GIT branch.
+
+a) git checkout -b sanfoundry
+
+b) git checkout -c sanfoundry
+
+c) git check -b sanfoundry
+
+d) None of the Mentioned
+
+Explanation:A branch in Git is simply a lightweight movable pointer to one of these commits.
+
+Ans -> option (a)
+	reason : if we can create a new branch ('sanfoundry') from GIT branch, it will take base to GIT branch.
 
 10. branch command is used to determine which branch you are currently in.
-Ans ->  True
+
+a) True
+
+b) False
+
+Ans ->  option (a)
+
 
 11. How will you differentiate develop, master, feature and hotfix branch ?
 Ans ->  develop branch - this branch have contains of pre-production code. 
